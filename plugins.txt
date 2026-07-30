@@ -1,0 +1,58 @@
+# Основные плагины
+workflow-aggregator:latest
+pipeline-stage-view:latest
+git:latest
+gitlab-plugin:latest
+github:latest
+github-branch-source:latest
+
+# Blue Ocean
+blueocean:latest
+blueocean-pipeline-editor:latest
+
+# Docker и Kubernetes
+docker-workflow:latest
+docker-plugin:latest
+kubernetes:latest
+kubernetes-cli:latest
+kubernetes-client-api:latest
+
+# Ansible
+ansible:latest
+ansicolor:latest
+
+# Утилиты
+timestamper:latest
+build-timeout:latest
+credentials-binding:latest
+email-ext:latest
+mailer:latest
+
+# Управление конфигурацией
+configuration-as-code:latest
+job-dsl:latest
+
+# Безопасность
+role-strategy:latest
+matrix-auth:latest
+ldap:latest
+
+# Мониторинг и метрики
+prometheus:latest
+metrics:latest
+
+# Уведомления
+slack:latest
+telegram-notifications:latest
+
+# Вебхуки и триггеры
+generic-webhook-trigger:latest
+pollscm:latest
+
+# Артефакты
+artifact-manager-s3:latest
+copyartifact:latest
+
+# Утилиты для пайплайнов
+pipeline-utility-steps:latest
+pipeline-rest-api:latest
