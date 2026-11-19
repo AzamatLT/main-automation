@@ -5,8 +5,6 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-      args:
-        - BUILDKIT_INLINE_CACHE=1
     container_name: main-automation
     restart: unless-stopped
     hostname: main-automation
@@ -24,12 +22,6 @@ services:
       - JENKINS_SLAVE_AGENT_PORT=50000
     networks:
       - main-network
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/jenkins/login"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
-      start_period: 60s
 
 volumes:
   jenkins_home:
